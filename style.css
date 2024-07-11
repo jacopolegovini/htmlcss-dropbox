@@ -112,3 +112,27 @@ h1 {
 
 /* Main */
 /* Brands */
+
+.brands {
+    height: 1200px;
+}
+
+.logos {
+    height: 70%
+}
+
+.logos > * {
+    flex-basis: 100%;
+}
+
+.logos-sx, .logos-dx {
+    flex-wrap: wrap;
+}
+
+.logos-sx *, .logos-dx * {
+    flex-basis: 50%;
+}
+
+.brands-cta {
+    height: 30%;
+}
