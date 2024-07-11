@@ -35,12 +35,16 @@ h1 {
     display: flex;
 }
 
+footer {
+    height: 800px;
+    background-color: black;
+}
 
 /* Header */
 /* Nav */
 
 .nav-header {
-    height: 10%;
+    height: 100px;
     position: sticky;
     top: 0;
 }
@@ -142,4 +146,27 @@ h1 {
 
 .faq {
     height: 800px;
+}
+
+
+/* Footer */
+/* Nav footer */
+
+.footer {
+    height: 100%;
+}
+
+.nav-footer {
+    height: 80%;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.nav-footer * {
+    background-color: aqua;
+    flex-basis: calc(100% / 5 - 80px / 5);
+}
+
+.language {
+    height: 20%;
 }
