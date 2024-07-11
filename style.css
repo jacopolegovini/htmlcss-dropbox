@@ -29,6 +29,9 @@ footer {
 
 h1 {
     font-weight: bolder;
+    font-size: 5rem;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 
 .container-s {
@@ -55,13 +58,15 @@ h1 {
     color: white;
     padding: 5px 12px;
     text-decoration: none;
+    box-sizing: content-box;
+    display: inline-block;
 }
 
 /* Header */
 /* Nav */
 
 .nav-header {
-    height: 100px;
+    height: 80px;
     position: sticky;
     top: 0;
     justify-content: space-between;
@@ -82,9 +87,6 @@ h1 {
     justify-content: end;
 }
 
-/* .nav-header-left, .nav-header-right {
-    flex-basis: calc(100% / 3);
-} */
 
 /* Header */
 /* Main header */
@@ -92,8 +94,27 @@ h1 {
 .main-header {
     height: 90%;
     background-color: #B4D0E7;
+    position: relative;
 }
 
+.section-header {
+    justify-content: space-between;
+}
+
+.copy-section-header {
+    flex-basis: 40%;
+}
+
+.copy-section-header .button {
+    margin: 25px 0;
+}
+
+.fa-arrow-down {
+    font-size: 3rem;
+    position: absolute;
+    bottom: 5px;
+    left: calc((100vw - 1500px) / 2);
+}
 
 /* Main */
 /* Prices */
