@@ -34,6 +34,12 @@ h1 {
     padding-bottom: 70px;
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 40px 0;
+}
+
 .container-s {
     max-width: 1100px;
     margin: 0 auto;
@@ -110,7 +116,7 @@ h1 {
     margin: 25px 0;
 }
 
-/* Put an animation + link scroll down */
+/* !Put an animation + link scroll down! */
 .fa-arrow-down {
     font-size: 3rem;
     position: absolute;
@@ -123,6 +129,60 @@ h1 {
 
 .prices {
     height: 2200px;
+}
+
+.prices .title {
+    padding-top: 80px;
+}
+
+.billing {
+    padding: 20px 0px 20px 0;
+    position: relative;
+}
+
+.billing * {
+    display: inline;
+    padding: 0 20px 20px 0;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: content-box;
+    line-height: 10px;
+    position: relative;
+}
+
+.monthly-dot .dot {
+    border: 6px solid rgb(23, 23, 255);
+    padding: 0px;
+}
+
+.annual-dot {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+
+.annual-dot .dot {
+    border: 2px solid gray;
+    padding: 4px;
+}
+
+.monthly {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 500px;
+}
+
+.annual {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    width: 500px; 
 }
 
 .prices-section {
