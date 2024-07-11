@@ -1,0 +1,27 @@
+/* General */
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Utilies */
+
+h1 {
+    font-weight: bolder;
+}
+
+.container-s {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-l {
+    max-width: 1200px;
+    margin: 0 auto;
+}
