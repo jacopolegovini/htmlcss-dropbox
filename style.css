@@ -10,12 +10,22 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
-
-/* Utilies */
-
 header {
     height: 1000px;
 }
+
+img {
+    width: 100%;
+    display: block;
+}
+
+footer {
+    height: 800px;
+    background-color: black;
+}
+
+
+/* Utilies */
 
 h1 {
     font-weight: bolder;
@@ -35,9 +45,16 @@ h1 {
     display: flex;
 }
 
-footer {
-    height: 800px;
-    background-color: black;
+.nav-header a:not(.button) {
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #0061FF;
+    color: white;
+    padding: 5px 12px;
+    text-decoration: none;
 }
 
 /* Header */
@@ -47,14 +64,27 @@ footer {
     height: 100px;
     position: sticky;
     top: 0;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 10px;
 }
 
-.nav-header * {
-    background-color: lightgray;
-    border: 1px dashed red;
-    flex-basis: 100%;
-    justify-content: space-between;
+.nav-header-left, .nav-header-right {
+    align-items: center;
+    gap: 40px;
 }
+
+.nav-header .nav-header-left {
+    justify-content: start;
+}
+
+.nav-header .nav-header-right {
+    justify-content: end;
+}
+
+/* .nav-header-left, .nav-header-right {
+    flex-basis: calc(100% / 3);
+} */
 
 /* Header */
 /* Main header */
