@@ -24,6 +24,11 @@ footer {
     background-color: black;
 }
 
+.icon::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
 
 /* Utilies */
 
@@ -71,10 +76,18 @@ h4 {
 .button {
     background-color: #0061FF;
     color: white;
-    padding: 5px 12px;
+    padding: 8px 15px;
     text-decoration: none;
     box-sizing: content-box;
     display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px 0;
 }
 
 /* Header */
@@ -231,12 +244,24 @@ h4 {
 .user {
     text-align: center;
     padding: 10px;
-    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
 
 .prices-euro {
     font-weight: bold;
     padding: 5px 0;
+}
+
+.duration {
+    color: gray;
+}
+
+.description-list {
+    padding: 50px 0;
+}
+
+li section {
+    display: inline;
 }
 
 /* Main */
