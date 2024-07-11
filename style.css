@@ -10,6 +10,7 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+
 /* Utilies */
 
 header {
@@ -21,12 +22,12 @@ h1 {
 }
 
 .container-s {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
 .container-l {
-    max-width: 1200px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -34,13 +35,25 @@ h1 {
     display: flex;
 }
 
+
 /* Header */
+/* Nav */
 
 .nav-header {
     height: 10%;
     position: sticky;
     top: 0;
 }
+
+.nav-header * {
+    background-color: lightgray;
+    border: 1px dashed red;
+    flex-basis: 100%;
+    justify-content: space-between;
+}
+
+/* Header */
+/* Main header */
 
 .main-header {
     height: 90%;
@@ -50,3 +63,30 @@ h1 {
 
 /* Main */
 /* Prices */
+
+.prices {
+    height: 2200px;
+}
+
+.prices-section {
+    height: 80%;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.prices-section * {
+    background-color: lightgray;
+    height: 80%;
+    flex-basis: calc(100% / 3 - 40px / 3);
+}
+
+.enterprise-pro {
+    flex-grow: 1;
+    height: 20%;
+}
+
+.find-a-partner {
+    height: 20%;
+    background-color: aqua;
+}
