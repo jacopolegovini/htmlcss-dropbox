@@ -57,6 +57,7 @@ h5 {
 
 .container-card {
     padding: 40px;
+    
 }
 
 .container-s {
@@ -176,7 +177,7 @@ li {
     height: 2000px;
 }
 
-.prices .title {
+.prices > .title {
     padding-top: 80px;
 }
 
@@ -251,10 +252,6 @@ li {
     height: 20%;
 }
 
-.find-a-partner {
-    height: 30%;
-    background-color: aqua;
-}
 
 /* Card Structure */
 
@@ -290,10 +287,6 @@ li {
     padding: 25px 0;
 }
 
-.description-list-flex {
-    
-}
-
 li section {
     display: inline;
 }
@@ -310,6 +303,33 @@ li section {
 .fa-check {
     color: blue;
     font-weight: bolder;
+}
+
+/* Card enterprise pro */
+
+.enterprise-pro-copy h4 {
+    padding: 0;
+}
+
+.subtitle.enterprise-pro-copy-title {
+    font-weight: bold;
+    padding-bottom: 50px;
+} 
+
+.enterprise-pro-flex {
+    gap: 20px;
+}
+
+.enterprise-pro-copy + .enterprise-pro-button {
+    flex-basis: 25%;
+}
+
+
+/* Find a partner */
+
+.find-a-partner {
+    height: 30%;
+    background-color: aqua;
 }
 
 /* Main */
