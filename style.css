@@ -401,7 +401,8 @@ li section {
 }
 
 .logos {
-    height: 70%
+    height: calc(100vw / 3);
+    margin-top: 100px;
 }
 
 .logos > * {
@@ -418,7 +419,78 @@ li section {
 
 .brands-cta {
     height: 30%;
+    background-color: lightblue;
 }
+
+/* Logo adjustament */
+
+.logo-img {
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img > * {
+    filter: invert(100%);
+}
+
+/* Brands */
+/* SX column */
+
+.designit.logo-img {
+    background-color: #A2D39B;
+}
+
+.asu.logo-img {
+    background-color: #61082B;
+}
+
+.uf.logo-img {
+    background-color: #0093CE;
+}
+
+.topps.logo-img {
+    background-color: #FF1C1C;
+}
+
+/* Brands */
+/* Middle column */
+
+.copy-logos-middle {
+    padding: 50px;
+    background-color: #F5F5F5;
+}
+
+.copy-logos-middle > img {
+    width: 50%;
+}
+
+.copy-logos-middle .line-br {
+    margin: 50px 0;
+}
+
+.copy-logos-middle section {
+    padding: 50px 0;
+}
+
+/* Brands */
+/* DX Column */
+
+.world-bicycle-relief.logo-img {
+    background-color: #D5001F;
+}
+
+.hearst.logo-img {
+    background-color: #B4D0E7;
+}
+
+.lonely-planet.logo-img {
+    background-color: #0D2481;
+}
+
+.clear-channel-outdoor.logo-img {
+    background-color: #FFD830;
+}
+
 
 /* Main */
 /* Faq */
