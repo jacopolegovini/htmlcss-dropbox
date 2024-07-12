@@ -80,9 +80,6 @@ h5 {
 }
 
 .button {
-    background-color: #0061FF;
-    color: white;
-    padding: 5px 10px;
     text-decoration: none;
     box-sizing: content-box;
     display: inline-block;
@@ -94,6 +91,16 @@ h5 {
 
 .button-l {
     padding: 10px 15px;
+}
+
+.button-primary-color {
+    background-color: #0061FF;
+    color: white;
+}
+
+.button-secondary-color {
+    color: gray;
+    border: 1px solid gray;
 }
     
 .fa-ul {
@@ -174,11 +181,13 @@ li {
 /* Prices */
 
 .prices {
-    height: 2000px;
+    height: 2200px;
+    margin-bottom: 50px;
 }
 
 .prices > .title {
     padding-top: 80px;
+    height: 15%;
 }
 
 /* Form section */
@@ -236,7 +245,7 @@ li {
 /* Flex structure */
 
 .prices-section {
-    height: 70%;
+    height: 65%;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
@@ -328,15 +337,36 @@ li section {
 /* Find a partner */
 
 .find-a-partner {
-    height: 30%;
-    background-color: aqua;
+    height: 20%;
+    padding: 150px 0 60px;
+}
+
+.find-a-partner-flex {
+    gap: 50px;
+}
+
+.img-find-a-partner {
+    width: 60%;
+}
+
+.copy-find-a-partner {
+    flex-basis: 40%;
+}
+
+.copy-find-a-partner h4 {
+    padding-top: 70px;
+}
+
+.copy-find-a-partner p {
+    padding-bottom: 20px;
 }
 
 /* Main */
 /* Operations */
 
 .operations {
-    height: 1200px;
+    height: 1400px;
+    padding-top: 300px;
 }
 
 .business-feature {
