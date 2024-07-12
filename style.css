@@ -50,8 +50,13 @@ h4 {
     padding: 10px 0;
 }
 
+h5 {
+    font-size: 1.2rem;
+    padding: 20px 0 10px;
+}
+
 .container-card {
-    padding: 20px;
+    padding: 25px;
 }
 
 .container-s {
@@ -76,19 +81,36 @@ h4 {
 .button {
     background-color: #0061FF;
     color: white;
-    padding: 8px 15px;
+    padding: 5px 10px;
     text-decoration: none;
     box-sizing: content-box;
     display: inline-block;
 }
 
-ul {
-    list-style-type: none;
+.button-s {
+    padding: 5px 10px;
+}
+
+.button-l {
+    padding: 10px 15px;
+}
+    
+.fa-ul {
+    margin-left: var(--fa-li-margin, 1.5em);
 }
 
 li {
     padding: 10px 0;
 }
+
+.line-br {
+    border-top: 1px solid lightgray;
+    width: 60px;
+    display: block;
+    height: 0;
+    margin-left: 25px
+}
+
 
 /* Header */
 /* Nav */
@@ -241,6 +263,14 @@ li {
     height: 100%;
 }
 
+.card-top {
+    max-height: 60%;
+}
+
+.card-bottom {
+    max-height: 40%;
+}
+
 .user {
     text-align: center;
     padding: 10px;
@@ -257,11 +287,29 @@ li {
 }
 
 .description-list {
-    padding: 50px 0;
+    padding: 40px 0;
+}
+
+.description-list-flex {
+    
 }
 
 li section {
     display: inline;
+}
+
+.cta-free-30-days .button {
+    display: block;
+    text-align: center;
+}
+
+.cta-buy-now {
+    padding: 40px 0;
+}
+
+.fa-check {
+    color: blue;
+    font-weight: bolder;
 }
 
 /* Main */
