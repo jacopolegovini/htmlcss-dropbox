@@ -406,11 +406,12 @@ li section {
 }
 
 .logos > * {
-    flex-basis: 100%;
+    flex-basis: calc(100% / 3);
 }
 
 .logos-sx, .logos-dx {
     flex-wrap: wrap;
+    height: 100%;
 }
 
 .logos-sx *, .logos-dx * {
@@ -427,6 +428,7 @@ li section {
 .logo-img {
     justify-content: center;
     align-items: center;
+    height: 50%;
 }
 
 .logo-img > * {
