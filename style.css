@@ -211,7 +211,6 @@ ul.flex-container a:active:not(.button) {
     margin: 25px 0;
 }
 
-/* !Put an animation + link scroll down! */
 .fa-arrow-down {
     font-size: 3rem;
     position: absolute;
@@ -480,6 +479,44 @@ li section {
 
 .logo-img > * {
     filter: invert(100%);
+}
+
+/* Hover effect */
+
+.logo-img:hover {
+    padding: 20px;
+}
+
+.designit.logo-img:hover {
+    border: 20px solid #81C378;
+}
+
+.asu.logo-img:hover {
+    border: 20px solid #900C40;
+}
+
+.uf.logo-img:hover {
+    border: 20px solid #02B7FF;
+}
+
+.topps.logo-img:hover {
+    border: 20px solid #E80000;
+}
+
+.world-bicycle-relief.logo-img:hover {
+    border: 20px solid #FF092D;
+}
+
+.hearst.logo-img:hover  {
+    border: 20px solid #8DB8DB;
+}
+
+.lonely-planet.logo-img:hover  {
+    border: 20px solid #1231AF;
+}
+
+.clear-channel-outdoor.logo-img:hover  {
+    border: 20px solid #FCCD00;
 }
 
 /* Brands */
