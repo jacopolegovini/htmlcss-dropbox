@@ -94,8 +94,25 @@ h5 {
     padding: 5px 10px;
 }
 
+.button-s:hover {
+    scale: 1.1 1.1;
+}
+
+.button-s:active {
+    scale: 1 1;
+}
+
 .button-l {
     padding: 10px 20px;
+}
+
+.button-l:hover {
+    scale: 1.1 1.1;
+}
+
+
+.button-l:active {
+    scale: 1 1;
 }
 
 .button-primary-color {
