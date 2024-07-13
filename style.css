@@ -220,6 +220,11 @@ ul.flex-container a:active:not(.button) {
     color: black;
 }
 
+.fa-arrow-down:hover {
+    scale: 1.1 1.1;
+}
+
+
 /* Main */
 /* Prices */
 
