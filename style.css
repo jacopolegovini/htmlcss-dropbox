@@ -516,12 +516,16 @@ li section {
 
 .faq {
     height: 800px;
+    padding: 200px 0;
 }
 
 .faq-section > * {
     border-top: 1px solid gray;
     line-height: 500%;
     font-weight: bold;
+}
+
+.faq-section span {
     position: relative;
 }
 
@@ -531,8 +535,9 @@ li section {
 
 .fa-angle-down {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: -400px;
+    top: -5px;
+    translate: 50% 50%;
 }
 
 /* Footer */
