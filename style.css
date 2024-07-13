@@ -622,7 +622,24 @@ li section {
     cursor: pointer;
 }
 
+.fa-angle-up {
+    position: absolute;
+    right: -400px;
+    top: -5px;
+    translate: 50% 50%;
+    cursor: pointer;
+    display: none;
+}
+
 /* Hover effect */
+
+.faq-section *:hover .fa-angle-up {
+    display: block;
+}
+
+.faq-section *:hover .fa-angle-down {
+    display: none;
+}
 
 .lorem-hover {
     display: none;
@@ -670,6 +687,11 @@ footer h4, footer ul {
 
 .nav-footer li {
     padding: 10px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
 }
 
 /* Footer */
