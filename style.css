@@ -180,8 +180,14 @@ button {
 ul.flex-container a:hover:not(.button) {
     padding-bottom: calc(40px - ((120 / 100) * 8px) - 3px);
     border-bottom: 3px solid gray;
+    font-weight: bold;
 }
 
+ul.flex-container a:active:not(.button) {
+    padding-bottom: 0;
+    border-bottom: 0;
+    font-weight: 400;
+}
 
 
 /* Header */
