@@ -62,7 +62,6 @@ h5 {
 
 .container-card {
     padding: 40px;
-    
 }
 
 .container-s {
@@ -141,10 +140,6 @@ button {
     margin-left: var(--fa-li-margin, 1.5em);
 }
 
-li {
-    padding: 10px 0;
-}
-
 .line-br {
     border-top: 1px solid lightgray;
     width: 60px;
@@ -167,7 +162,7 @@ li {
     padding: 0 10px;
 }
 
-.nav-header-left ul, .nav-header-right ul{
+.nav-header ul{
     height: 100%;
     list-style-type: none;
     align-items: center;
@@ -181,6 +176,12 @@ li {
 .nav-header .nav-header-right {
     justify-content: end;
 }
+
+ul.flex-container a:hover:not(.button) {
+    padding-bottom: calc(40px - ((120 / 100) * 8px) - 3px);
+    border-bottom: 3px solid gray;
+}
+
 
 
 /* Header */
@@ -330,6 +331,10 @@ li {
 
 .description-list {
     padding: 25px 0;
+}
+
+.card li {
+    padding: 10px 0;
 }
 
 li section {
@@ -597,6 +602,10 @@ footer h4, footer ul {
 
 .nav-footer ul {
     list-style-type: none;
+}
+
+.nav-footer li {
+    padding: 10px 0;
 }
 
 /* Footer */
