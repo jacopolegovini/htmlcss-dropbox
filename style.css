@@ -600,8 +600,10 @@ li section {
 
 .faq-section > * {
     border-top: 1px solid gray;
-    line-height: 500%;
+    /* line-height: 500%; */
     font-weight: bold;
+    padding: 2.2rem 0;
+    cursor: pointer;
 }
 
 .faq-section span {
@@ -617,7 +619,21 @@ li section {
     right: -400px;
     top: -5px;
     translate: 50% 50%;
+    cursor: pointer;
 }
+
+/* Hover effect */
+
+.lorem-hover {
+    display: none;
+    padding-top: 20px;
+    font-weight: normal;
+}
+
+.faq-section > *:hover .lorem-hover {
+    display: block;
+}
+
 
 /* Footer */
 /* Nav footer + language structure*/
