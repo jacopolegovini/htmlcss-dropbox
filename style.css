@@ -106,6 +106,7 @@ h5 {
 .button-secondary-color {
     color: gray;
     border: 1px solid gray;
+    box-shadow: 1px 1px gray;
 }
 
 .button-tertiary-color {
