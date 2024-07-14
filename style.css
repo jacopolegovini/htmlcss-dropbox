@@ -36,7 +36,7 @@ button {
 }
 
 
-/* Utilies */
+/* Utilities */
 /* Titles */
 
 h1 {
@@ -67,7 +67,7 @@ h5 {
     padding: 20px 0 10px;
 }
 
-/* Utilies */
+/* Utilities */
 /* Containers */
 
 .container-card {
@@ -93,7 +93,7 @@ h5 {
     text-decoration: none;
 }
 
-/* Utilies */
+/* Utilities */
 /* Buttons */
 
 .button {
@@ -134,14 +134,14 @@ h5 {
     color: black;
 }
 
-/* Utilies */
+/* Utilities */
 /* Lists */
 
 .fa-ul {
     margin-left: var(--fa-li-margin, 1.5em);
 }
 
-/* Utilies */
+/* Utilities */
 /* Lines br class */
 
 .line-br {
@@ -195,6 +195,12 @@ ul.flex-container a:active:not(.button) {
     background-color: transparent;
 }
 
+#img-logo-hover:hover {
+    padding: 0;
+    border-bottom: 0;
+    font-weight: 400;
+    background-color: transparent;
+}
 
 /* Header */
 /* Main header */
