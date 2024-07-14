@@ -24,13 +24,16 @@ footer {
     background-color: black;
 }
 
-.icon::before {
-    display: inline-block;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-  }
+button {
+    color: white;
+    background-color: transparent;
+    border: 0 solid transparent;
+    padding: 20px 0;
+}
+
 
 /* Utilies */
+/* Titles */
 
 h1 {
     font-weight: bolder;
@@ -60,6 +63,9 @@ h5 {
     padding: 20px 0 10px;
 }
 
+/* Utilies */
+/* Containers */
+
 .container-card {
     padding: 40px;
 }
@@ -83,34 +89,29 @@ h5 {
     text-decoration: none;
 }
 
+/* Utilies */
+/* Buttons */
+
 .button {
     text-decoration: none;
     box-sizing: content-box;
     display: inline-block;
 }
 
+.button:hover {
+    scale: 1.1 1.1;
+}
+
+.button:active {
+    scale: 1 1;
+}
+
 .button-s {
     padding: 5px 10px;
 }
 
-.button-s:hover {
-    scale: 1.1 1.1;
-}
-
-.button-s:active {
-    scale: 1 1;
-}
-
 .button-l {
     padding: 10px 20px;
-}
-
-.button-l:hover {
-    scale: 1.1 1.1;
-}
-
-.button-l:active {
-    scale: 1 1;
 }
 
 .button-primary-color {
@@ -129,16 +130,15 @@ h5 {
     color: black;
 }
 
-button {
-    color: white;
-    background-color: transparent;
-    border: 0 solid transparent;
-    padding: 20px 0;
-}
+/* Utilies */
+/* Lists */
 
 .fa-ul {
     margin-left: var(--fa-li-margin, 1.5em);
 }
+
+/* Utilies */
+/* Lines br class */
 
 .line-br {
     border-top: 1px solid lightgray;
@@ -178,9 +178,10 @@ button {
 }
 
 ul.flex-container a:hover:not(.button) {
-    padding-bottom: calc(40px - ((120 / 100) * 8px) - 3px);
+    padding: calc(40px - ((120 / 100) * 8px) - 3px) 10px calc(40px - ((120 / 100) * 8px) - 3px) 10px;
     border-bottom: 3px solid gray;
     font-weight: bold;
+    background-color: #eee;
 }
 
 ul.flex-container a:active:not(.button) {
@@ -225,7 +226,7 @@ ul.flex-container a:active:not(.button) {
 
 
 /* Main */
-/* Prices */
+/* Prices general */
 
 .prices {
     height: 2200px;
@@ -237,7 +238,9 @@ ul.flex-container a:active:not(.button) {
     height: 15%;
 }
 
+/* Prices */
 /* Form section */
+
 .billing {
     padding: 20px 0px 20px 0;
     position: relative;
@@ -288,7 +291,7 @@ ul.flex-container a:active:not(.button) {
     width: 500px; 
 }
 
-/* Prices section */
+/* Prices */
 /* Flex structure */
 
 .prices-section {
@@ -308,7 +311,7 @@ ul.flex-container a:active:not(.button) {
     height: 20%;
 }
 
-
+/* Prices */
 /* Card Structure */
 
 .card {
