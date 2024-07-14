@@ -185,9 +185,10 @@ ul.flex-container a:hover:not(.button) {
 }
 
 ul.flex-container a:active:not(.button) {
-    padding-bottom: 0;
+    padding: 0;
     border-bottom: 0;
     font-weight: 400;
+    background-color: transparent;
 }
 
 
@@ -371,7 +372,7 @@ li section {
 /* Card enterprise pro */
 
 .enterprise-pro-copy h4 {
-    padding: 0;
+    padding: 0 0 10px 0;
 }
 
 .subtitle.enterprise-pro-copy-title {
@@ -387,7 +388,7 @@ li section {
     flex-basis: 25%;
 }
 
-
+/* Prices */
 /* Find a partner */
 
 .find-a-partner {
@@ -431,15 +432,17 @@ li section {
     flex-wrap: wrap;
 }
 
+/* Operations */
+/* Card Business Feature structure */
+
 .business-feature * {
     flex-basis: calc(100% / 3 - 40px / 3);
 }
 
-/* Card Business Feature structure */
-
 .business-feature p {
     padding: 20px 0;
 }
+
 
 /* Main */
 /* Brands */
@@ -472,6 +475,7 @@ li section {
     background-color: lightblue;
 }
 
+/* Brands */
 /* Logo adjustament */
 
 .logo-img {
@@ -484,6 +488,7 @@ li section {
     filter: invert(100%);
 }
 
+/* Brands */
 /* Hover effect */
 
 .logo-img:hover {
@@ -553,12 +558,8 @@ li section {
     width: 50%;
 }
 
-.copy-logos-middle .line-br {
+.copy-logos-middle .line-br, .copy-logos-middle section {
     margin: 50px 0;
-}
-
-.copy-logos-middle section {
-    padding: 50px 0;
 }
 
 /* Brands */
@@ -593,6 +594,7 @@ li section {
     color: #5D0022;
 }
 
+
 /* Main */
 /* Faq */
 
@@ -603,7 +605,6 @@ li section {
 
 .faq-section > * {
     border-top: 1px solid gray;
-    /* line-height: 500%; */
     font-weight: bold;
     padding: 2.2rem 0;
     cursor: pointer;
@@ -634,6 +635,7 @@ li section {
     display: none;
 }
 
+/* Faq */
 /* Hover effect */
 
 .faq-section *:hover .fa-angle-up {
@@ -656,7 +658,7 @@ li section {
 
 
 /* Footer */
-/* Nav footer + language structure*/
+/* Nav footer structure + language structure*/
 
 .footer {
     height: 100%;
